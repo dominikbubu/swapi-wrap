@@ -1,9 +1,9 @@
-import { getPlanets, getPlanetById } from "../index";
+import { getPlanets, getPlanetById } from '../index';
 
-test("getPlanets", () => {
-    expect(getPlanets).toBeDefined();
-})
+test('getPlanets', () => {
+  expect(getPlanets).toBeDefined();
+});
 
-test("getPlanetById", () => {
-    expect(getPlanets).toBeDefined();
-})
+test('getPlanetById', () => {
+  expect(getPlanetById(1)).toBeDefined();
+});
