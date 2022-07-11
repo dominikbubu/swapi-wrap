@@ -1,1 +1,1 @@
-"# SWAPI wrapper" 
+# SWAPI wrapper
