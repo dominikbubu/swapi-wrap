@@ -1,6 +1,7 @@
-const request = (url: string) => {
-  const data = fetch(url).then((response) => response.json());
-  return data;
+import axios from 'axios';
+
+const request = (url: string): any => {
+  return axios.get(url);
 };
 
 export { request };
