@@ -1,6 +1,6 @@
 {
   "name": "swapi-wrap",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "SWAPI wrapper",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
