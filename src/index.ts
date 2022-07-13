@@ -31,7 +31,6 @@ const getPlanets = (): Promise<Planets> => {
 };
 
 const getPlanetById = (id: number): Promise<Planet> => {
-  console.log(`${url}planets/${id}/`);
   return request(`${url}planets/${id}/`);
 };
 
